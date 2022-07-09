@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>食材</title>
+</head>
+<style>
+#div2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#div3{
+    position: absolute;
+    bottom: 0;
+}
+#img2{
+    float: right;
+}
+</style>
+<body>
+<div id="div1">
+    <img src="../photos/meat.png" width="300px" height="300px"><button class="btn btn-info" style="width: 100px;" onclick="gotoMeat()">肉类</button>
+</div>
+<div id="div2">
+    <button class="btn btn-info" style="width: 100px;" onclick="gotoVegetable()">蔬菜</button><img src="../photos/vegetable.png" width="300px" height="300px">
+</div>
+<br><br>
+<h2>点击下列图片获取更多</h2>
+<div id="div3">
+    <img src="../photos/shredded pork with garlic sauce.png" onclick="gotoyu()"> <img id="img2" src="../photos/scrambled egg with tomato.png" onclick="gotofan()">
+</div>
+</body>
+<script>
+function gotoMeat(){
+    window.location='/Webs/meat.html'
+}
+function gotoVegetable(){
+    window.location='/Webs/vegetable.html'
+}
+function gotoyu(){
+    window.location='/Webs/yu.html'
+}
+function gotofan(){
+    window.location='/Webs/fan.html'
+}
+</script>
+</html>

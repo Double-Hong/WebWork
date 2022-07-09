@@ -29,16 +29,19 @@
 <body>
     <div id="div1">
         <br><br><br><br>
-        <button class="btn btn-danger">作业网页</button>
+        <button class="btn btn-danger" onclick="gotoweb()">作业网页</button>
     </div>
     <div id="div2">
         <br><br><br><br>
-        <button class="btn btn-info">《通信软件开发与应用》课程结业报告</button>
+        <button class="btn btn-info" onclick="gotozongjie()">《通信软件开发与应用》课程结业报告</button>
     </div>
 </body>
 <script>
     function gotoweb(){
-        window.location=''
+        window.location='./Webs/myweb.html'
+    }
+    function gotozongjie(){
+        window.location='/Webs/zongjie.html'
     }
 </script>
 </html>
