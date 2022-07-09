@@ -37,4 +37,22 @@ JavaScript就有点像C语言一样，都是先定义一些变量，然后对变
   * 算术操作符 `+ - * / %`  
   * 关系操作符 `<> <=>= == === != !==`  
   * 条件（问号）操作符 `? :`  
-  * 赋值操作符 `= += -+ *= /= %=`
+  * 赋值操作符 `= += -+ *= /= %=`  
+  # TypeScript    
+  TypeScript是JavaScript类型的超集,它可以编译成纯JavaScript。  
+  TypeScript 程序由以下几个部分组成：模块、函数、变量、语句和表达式、注释。  
+  使用以下 TypeScript 程序来输出 "Hello World" ：`const hello : string = "Hello World!";console.log(hello)`  
+    * 空白和换行  
+    TypeScript 会忽略程序中出现的空格、制表符和换行符。  
+    空格、制表符通常用来缩进代码，使代码易于阅读和理解。  
+    * TypeScript 区分大小写  
+    TypeScript 区分大写和小写字符  
+    * 分号是可选的  
+    每行指令都是一段语句，可以使用分号或不使用， 分号在 TypeScript 中是可选的。  
+    * TypeScript 注释  
+    单行注释 `//`后面的内容都是注释内容。  
+    多行注释`/* */`这可以多行注释。
+    * TypeScript 与面向对象  
+    TypeScript 是一种面向对象的编程语言。  
+    也就是说TypeScript可以在js中声明类和对象，用js进行调用。  
+    
